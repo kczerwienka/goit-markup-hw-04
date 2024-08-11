@@ -55,13 +55,23 @@
             Effective Solutions<br />
             for Your Business
           </h1>
-          <button type="button">Order Service</button>
+          <button type="button" data-modal-open>Order Service</button>
         </div>
+
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button class="close-button" data-modal-close>&times;</button>
+          </div>
+        </div>
+        <script src="./js/modal.js"></script>
       </section>
       <section id="section-1" class="section">
         <div class="container">
           <ul class="section-1-content">
             <li>
+              <div class="section-1-photo">
+                <img src="images/antenna.svg" alt="antenna" />
+              </div>
               <h3>Strategy</h3>
               <p>
                 Our goal is to identify the business problem to walk away with
@@ -69,6 +79,9 @@
               </p>
             </li>
             <li>
+              <div class="section-1-photo">
+                <img src="images/clock.svg" alt="clock" />
+              </div>
               <h3>Punctuality</h3>
               <p>
                 Bring the key message to the brand's audience for the best price
@@ -76,6 +89,9 @@
               </p>
             </li>
             <li>
+              <div class="section-1-photo">
+                <img src="images/diagram.svg" alt="diagram" />
+              </div>
               <h3>Diligence</h3>
               <p>
                 Research and confirm brands that present the strongest digital
@@ -83,6 +99,9 @@
               </p>
             </li>
             <li>
+              <div class="section-1-photo">
+                <img src="images/astronaut.svg" alt="astronaut" />
+              </div>
               <h3>Technologies</h3>
               <p>
                 Design practice focused on digital experiences. We bring forth a
@@ -113,6 +132,12 @@
               <div class="personal-info">
                 <h3>Mark Guerrero</h3>
                 <p>Product Designer</p>
+                <div class="social-media">
+                  <img src="images/instagram.svg" alt="instagram" />
+                  <img src="images/twitter.svg" alt="twitter" />
+                  <img src="images/facebook.svg" alt="facebook" />
+                  <img src="images/linkedin.svg" alt="linkedin" />
+                </div>
               </div>
             </li>
             <li>
@@ -120,6 +145,12 @@
               <div class="personal-info">
                 <h3>Tom Ford</h3>
                 <p>Frontend Developer</p>
+                <div class="social-media">
+                  <img src="images/instagram.svg" alt="instagram" />
+                  <img src="images/twitter.svg" alt="twitter" />
+                  <img src="images/facebook.svg" alt="facebook" />
+                  <img src="images/linkedin.svg" alt="linkedin" />
+                </div>
               </div>
             </li>
             <li>
@@ -127,6 +158,12 @@
               <div class="personal-info">
                 <h3>Camila Garcia</h3>
                 <p>Marketing</p>
+                <div class="social-media">
+                  <img src="images/instagram.svg" alt="instagram" />
+                  <img src="images/twitter.svg" alt="twitter" />
+                  <img src="images/facebook.svg" alt="facebook" />
+                  <img src="images/linkedin.svg" alt="linkedin" />
+                </div>
               </div>
             </li>
             <li>
@@ -134,22 +171,52 @@
               <div class="personal-info">
                 <h3>Daniel Wilson</h3>
                 <p>UI Designer</p>
+                <div class="social-media">
+                  <img src="images/instagram.svg" alt="instagram" />
+                  <img src="images/twitter.svg" alt="twitter" />
+                  <img src="images/facebook.svg" alt="facebook" />
+                  <img src="images/linkedin.svg" alt="linkedin" />
+                </div>
               </div>
             </li>
           </ul>
         </div>
       </section>
+      <section id="section-4" class="section">
+        <div class="container">
+          <h2>Customers</h2>
+          <div class="customer-logos">
+            <img src="images/Client1.svg" alt="Client1" />
+            <img src="images/Client2.svg" alt="Client2" />
+            <img src="images/Client3.svg" alt="Client3" />
+            <img src="images/Client4.svg" alt="Client4" />
+            <img src="images/Client5.svg" alt="Client5" />
+            <img src="images/Client6.svg" alt="Client6" />
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
       <div class="footer-content container">
-        <a href="index.html" id="logo">
-          <span id="logo_web">WEB</span><span id="logo_studio">STUDIO</span>
-        </a>
-        <p>
-          Increase the flow of customers and <br />
-          sales for your business with digital<br />
-          marketing & growth solutions.
-        </p>
+        <div class="footer-info">
+          <a href="index.html" id="logo">
+            <span id="logo_web">WEB</span><span id="logo_studio">STUDIO</span>
+          </a>
+          <p>
+            Increase the flow of customers and <br />
+            sales for your business with digital<br />
+            marketing & growth solutions.
+          </p>
+        </div>
+        <div class="footer-social">
+          <p>Social media</p>
+          <div class="social-media">
+            <img src="images/instagram.svg" alt="instagram" />
+            <img src="images/twitter.svg" alt="twitter" />
+            <img src="images/facebook.svg" alt="facebook" />
+            <img src="images/linkedin.svg" alt="linkedin" />
+          </div>
+        </div>
       </div>
     </footer>
   </body>
